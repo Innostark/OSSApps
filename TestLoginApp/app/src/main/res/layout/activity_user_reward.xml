@@ -1,0 +1,25 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:id="@+id/top_control_bar">
+        <TextView  android:layout_width="fill_parent" android:id="@+id/list_title"  android:gravity="center" android:textSize="10pt"
+            android:background="#888888"
+            android:textColor="#FFFFFF"
+            android:layout_height="25pt" />
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/list_title"
+            android:id="@+id/lv_activities" />
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+
